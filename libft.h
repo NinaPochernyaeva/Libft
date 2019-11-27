@@ -69,5 +69,7 @@ char	*ft_strcat(char *s1, const char *s2);
 char	*ft_strncat(char *s1, const char *s2, size_t n);
 char	*ft_strmap(char const *s, char (*f)(char));
 void	*ft_memmove(void *dst, const void *src, size_t len);
+char	*ft_strjoinfree1(char *s1, char const *s2);
+char	*ft_strsubfree(char **s, unsigned int start, size_t len);
 
 #endif
